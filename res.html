@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="chef.png" type="image/gif" />
+    <title>Restaurant Website</title>
+   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+
+  <link rel="stylesheet" href="res.css">
+   
+</head>
+ <body>
+
+    <!-- <header>
+        <a href="#" class="logo">Meet & Eat</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+ 
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+    
+            <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header> -->
+<body data-bs-spy="scroll" data-bs-target="#navbarScroll" data-bs-offset="100" tabindex="0">
+
+
+<header>
+   <a href="#" class="logo">Meet & Eat</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+  <ul class="navbar nav nav-pills" id="navbarScroll">
+  <li><a href="#home" class="nav-link">Home</a></li>
+  <li><a href="#about" class="nav-link">About</a></li>
+  <li><a href="#menu" class="nav-link">Menu</a></li>
+  <li><a href="#services" class="nav-link">Service</a></li>
+  <li><a href="#contact" class="nav-link">Contact</a></li>
+  <div class="bx bx-moon" id="darkmode"></div>
+</ul>
+
+</header> 
+
+
+
+  
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Food Taste</h1>
+            <h2>The tasty food of <br> your choice</h2>
+            <a href="#" class="btn">View Menu</a>
+        </div>
+        <div class="home-img">
+            <img src="fres2.jpeg" alt="">
+        </div>
+    </section>
+ 
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="restaurant1.jpeg" alt="">
+        </div>
+        <div class="about-text">
+            <span>About Us</span>
+            <h2>We make good and <br> tasty food</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut quo iure rem ducimus tenetur deserunt commodi doloribus, quibusdam vel fuga?</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+ 
+
+    <section class="menu" id="menu">
+        <div class="heading">
+            <span>Menu</span>
+            <h2>Tasty menu of the week</h2>
+        </div>
+        <div class="menu-container">
+         
+            <div class="box">
+                <div class="box-img">
+                    <img src="burger.jpeg" alt="">
+                </div>
+                <h2>Cheese Burger</h2>
+                <h3>Tasty Food</h3>
+                <span>$45</span>
+                <i class='bx bx-cart-alt'></i>
+            </div>
+     
+            <div class="box">
+                <div class="box-img">
+                    <img src="fried.jpeg" alt="">
+                </div>
+                <h2>Fried Rice</h2>
+                <h3>Tasty Food</h3>
+                <span>$60</span>
+                <i class='bx bx-cart-alt'></i>
+            </div>
+       
+            <div class="box">
+                <div class="box-img">
+                    <img src="noodles.jpeg" alt="">
+                </div>
+                <h2>Chicken Noodles</h2>
+                <h3>Tasty Food</h3>
+                <span>$70</span>
+                <i class='bx bx-cart-alt'></i>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- Service -->
+        <section class="services" id="services">
+        <div class="heading">
+            <span>Services</span>
+            <h2>We provide best food services</h2>
+        </div>
+ 
+        <div class="servives-container">
+            <!-- Box 1 -->
+            <div class="s-box">
+                <img src="order.png" alt="">
+                <h3>You Order</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit ea fugiat esse tempore ipsum temporibus.</p>
+            </div>
+            <!-- Box 2 -->
+            <div class="s-box">
+                <img src="ship.png" alt="">
+                <h3>Shipping</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit ea fugiat esse tempore ipsum temporibus.</p>
+            </div>
+            <!-- Box 3 -->
+            <div class="s-box">
+                <img src="del.png" alt="">
+                <h3>Delivered</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit ea fugiat esse tempore ipsum temporibus.</p>
+            </div>
+        </div>
+    </section>
+  
+ 
+
+    <section class="connect" id="contact">
+  <div class="connect-box d-flex align-items-center justify-content-between">
+    <div class="connect-text">
+      <span>Let's Talk</span>
+      <h2>Connect now</h2>
+    </div>
+
+    <div class="container m-0">
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#biodataModal">Contact Us</button>
+    </div>
+  </div>
+
+  <!-- Modal -->
+ 
+
+
+ <div class="modal fade" id="biodataModal">
+      <div class="modal-dialog">
+        <div class="modal-content" >
+          
+          <div class="modal-header">
+            <h5 class="modal-title">Welcome All</h5>
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          
+           <!-- <button id="btn">get APi</button> -->
+           
+          <form action="http://localhost:8081/restaurant" method="post">
+            <div class="modal-body">
+
+              <div class="mb-3">
+                <label for="bid" class="form-label">Bill Id</label>
+                 <input type="text" name="bid" class="form-control" id="bid" placeholder="Enter your Bill Id ">
+              </div>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" name="name" class="form-control" id="name" placeholder="Enter your name">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email">
+              </div>
+              <div class="mb-3">
+                <label for="orders" class="form-label">Place your orders</label>
+                <br>
+                <!-- <textarea class="form-control" id="order" rows="3" placeholder="Enter your Order"></textarea> -->
+  
+   <label><input type="checkbox" name="orders" class="item" value="Pizza" data-price="100"> Pizza - rs.100</label><br>
+  <label><input type="checkbox" name="orders" class="item" value="Burger" data-price="60"> Burger - rs.60</label><br>
+  <label><input type="checkbox" name="orders" class="item" value="Sandwich" data-price="40"> Sandwich - rs.40</label><br>
+  <label><input type="checkbox" name="orders" class="item" value="Pasta" data-price="120"> Pasta - rs.120</label><br>
+  <label><input type="checkbox" name="orders" class="item" value="Noodles" data-price="150"> Noodles - rs.150</label><br>
+
+              </div>
+              <div class="mb-3">
+                <label for="tamt" class="form-label">Total amount</label>
+                 <input type="text" name="tamt" class="form-control" id="tamt" placeholder="Your total amount ">
+              </div>
+              
+              <div class="mb-3">
+                <label for="tid" class="form-label">Transaction Id</label>
+                 <input type="text" name="tid" class="form-control" id="tid" placeholder="Enter your Transaction Id ">
+              </div>
+
+
+
+            </div>
+            
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal" >Cancel</button>
+              <button type="submit" class="btn btn-primary" >Submit</button>
+
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+</section>
+ 
+
+
+    
+<section class="contact py-5" >
+  <div class="container">
+    <div class="row text-center text-md-start">
+
+  
+      <div class="col-md-3 mb-4">
+        <h3>Food Taste</h3>
+        <span>Connect With Us</span>
+        <div class="social mt-2">
+          <a href="#"><i class='bx bxl-facebook'></i></a>
+          <a href="#"><i class='bx bxl-twitter'></i></a>
+          <a href="#"><i class='bx bxl-instagram'></i></a>
+        </div>
+      </div>
+
+
+      <div class="col-md-3 mb-4">
+        <h3>Quick Links</h3>
+        <ul class="list-unstyled">
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Disclaimer</a></li>
+          <li><a href="#">Terms Of Use</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <h3>Contact</h3>
+        <p><i class='bx bxs-map'></i> 44 Street, Chennai, Tamil Nadu</p>
+        <p><i class='bx bxs-phone'></i> +1 444 444 4444</p>
+        <p><i class='bx bxs-envelope'></i> Example@email.com</p>
+      </div>
+
+    
+      <div class="col-md-3 mb-4">
+        <h3>Location</h3>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps?q=Chennai&output=embed"
+            width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy">
+          </iframe>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+ <!-- <section class="contact" id="contact">
+        <div class="contact-box">
+            <h3>Food Taste</h3>
+            <span>Connect With Us</span>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+            </div>
+        </div>
+  
+        <div class="contact-box">
+            <h3>Quick Links</h3>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#Privacy Policy">Privacy Policy</a></li>
+            <li><a href="#Disclaimer">Disclaimer</a></li>
+            <li><a href="#Terms Of Use">Terms Of Use</a></li>
+        </div>
+        <div class="contact-box address">
+            <h3>Contact</h3>
+            <i class='bx bxs-map' ><span>44 Street Chennai, TamilNadu</span></i>
+            <i class='bx bxs-phone' ><span>+1 444 444 4444</span></i>
+            <i class='bx bxs-envelope' ><span>Exapmle@email.com</span></i>
+        </div>
+
+ 
+
+<div class="map_container">
+  <h3>Location</h3>
+  <div class="map">
+    <div id="googleMap" style="width:100%;height:200px;">
+      <iframe
+        src="https://www.google.com/maps?q=Chennai&output=embed"
+        width="100%"
+        height="100%">
+      </iframe>
+    </div>
+  </div>
+</div>
+
+    </section> -->
+
+
+
+  
+    <div class="copyright">
+        <p>&#169; Kesavarajj04 All Right Reserved.</p>
+    </div>
+
+ 
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="res.js"></script>
+</body>
+</html>

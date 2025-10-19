@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "name": "Ezhil Palani",
+    "email": "ezhil1@techmail.com",
+     "Product Ordered": [
+      "Chicken Noodles-1($20)",
+      "Fried Rice-1QTY($25)",
+      "Piza-2($50)"
+    ],
+    "total amount":"$95",
+    "bill Id":"6481",
+    "transaction Id":"10911437628-tk"
+  },
+  {
+    "id": 2,
+    "name": "Palani",
+    "email": "palanikv1@techmail.com",
+    "Product Ordered": [
+      "Chicken Noodles-1($25)",
+      "Fried Rice-1QTY($20)",
+      "Piza-2($50)"
+    ],
+    "total amount":"$95",
+    "bill Id":"6482",
+    "transaction Id":"10911437628-tk"
+  },
+  {
+    "id": 3,
+    "name": "Raju",
+    "email": "raju.m@techmail.com",
+    "Product Ordered": [
+      "Chicken Noodles-1($25)",
+      "Fried Rice-1QTY($20)",
+      "Piza-2($50)"
+    ],
+    "total amount":"$95",
+    "bill Id":"6483",
+    "transaction Id":"10911437628-tk"
+  },
+  {
+    "id": 4,
+    "name": "vetrivel",
+    "email": "velvetri@techmail.com",
+    "Product Ordered": [
+      "Chicken Noodles-1($25)",
+      "Fried Rice-1QTY($20)",
+      "Piza-2($50)"
+    ],
+    "total amount":"$95",
+    "bill Id":"6484",
+    "transaction Id":"10911437628-tk"
+  }
+
+]
